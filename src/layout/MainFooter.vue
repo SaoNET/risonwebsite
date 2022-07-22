@@ -8,30 +8,52 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.creative-tim.com">
-              Creative Tim
+            <a href="https://www.webaplant.com">
+              Webaplant
             </a>
           </li>
           <li>
-            <a href="https:///presentation.creative-tim.com">
+            <a href="https:///presentation.webaplant.com">
               About Us
             </a>
           </li>
           <li>
-            <a href="https:///blog.creative-tim.com">
+            <a href="https:///blog.webaplant.com">
               Blog
             </a>
           </li>
           <li>
-            <a href="https://www.creative-tim.com/license">
+            <a href="https://www.webaplant.com/license">
               Licenses
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://twitter.com/Webaplant" target="_blank">
+              <i class="fab fa-twitter"></i>
+              <p class="hidden-lg">Twitter</p>
+              <md-tooltip md-direction="bottom">Follow us on Twitter</md-tooltip>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Webaplant" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+              <p class="hidden-lg">Facebook</p>
+              <md-tooltip md-direction="bottom">Like us on Facebook</md-tooltip>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/Webaplant" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <p class="hidden-lg">Instagram</p>
+              <md-tooltip md-direction="bottom">Follow us on Instagram</md-tooltip>
             </a>
           </li>
         </ul>
       </nav>
       <div class="copyright">
         &copy; {{ year }}, made with <md-icon>favorite</md-icon> by
-        <a href="https://www.creative-tim.com/" target="_blank">Creative Tim</a>
+        <a href="https://www.webaplant.com/" target="_blank">Webaplant</a>
         for a better web.
       </div>
     </div>
