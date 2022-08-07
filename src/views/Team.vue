@@ -20,19 +20,10 @@
                         />
                       </div>
                       <h4 class="card-title">
-                        Gigi Hadid
+                        Alibek
                         <br />
-                        <small class="card-description text-muted">Model</small>
+                        <small class="card-description text-muted">CEO</small>
                       </h4>
-
-                      <md-card-content>
-                        <p class="card-description">
-                          You can write here details about one of your team
-                          members. You can give more details about what they do.
-                          Feel free to add some <a href="#">links</a> for people
-                          to be able to follow them outside the site.
-                        </p>
-                      </md-card-content>
 
                       <md-card-actions class="text-center">
                         <md-button
@@ -68,21 +59,12 @@
                         />
                       </div>
                       <h4 class="card-title">
-                        Carla Hortensia
+                        Malika
                         <br />
                         <small class="card-description text-muted"
-                          >Designer</small
+                          >CTO</small
                         >
                       </h4>
-
-                      <md-card-content>
-                        <p class="card-description">
-                          You can write here details about one of your team
-                          members. You can give more details about what they do.
-                          Feel free to add some <a href="#">links</a> for people
-                          to be able to follow them outside the site.
-                        </p>
-                      </md-card-content>
 
                       <md-card-actions class="text-center">
                         <md-button
@@ -112,19 +94,10 @@
                         />
                       </div>
                       <h4 class="card-title">
-                        Kendall Jenner
+                        Aigerim
                         <br />
-                        <small class="card-description text-muted">Model</small>
+                        <small class="card-description text-muted">CDO</small>
                       </h4>
-
-                      <md-card-content>
-                        <p class="card-description">
-                          You can write here details about one of your team
-                          members. You can give more details about what they do.
-                          Feel free to add some <a href="#">links</a> for people
-                          to be able to follow them outside the site.
-                        </p>
-                      </md-card-content>
 
                       <md-card-actions class="text-center">
                         <md-button
@@ -167,7 +140,7 @@ export default {
     },
     teamImg1: {
       type: String,
-      default: require("@/assets/img/faces/avatar.jpg")
+      default: require("@/assets/img/persons/Alibek.jpg")
     },
     teamImg2: {
       type: String,

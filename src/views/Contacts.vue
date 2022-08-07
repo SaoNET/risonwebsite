@@ -35,7 +35,8 @@
                 </md-field>
                 <div class="md-layout">
                   <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
+                    <!-- <md-button class="md-success">Send Message</md-button> -->
+                    <md-button class="md-success" @click="sent = true">Send Message</md-button>
                   </div>
                 </div>
               </form>
@@ -43,6 +44,14 @@
           </div>
         </div>
       </div>
+    </div>
+    <div>
+      <md-dialog-alert
+        :md-active.sync="sent"
+        md-title="Email message is sent"
+        md-content="Thank you! We will reach you ASAP!"
+        md-confirm-text="OK" />
+      <!-- <md-button class="md-primary md-raised" @click="sent = true">Send</md-button> -->
     </div>
   </div>
 </template>
@@ -72,7 +81,8 @@ export default {
     return {
       name: null,
       email: null,
-      message: null
+      message: null,
+      sent: false
     };
   },
   computed: {

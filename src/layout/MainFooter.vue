@@ -53,8 +53,7 @@
       </nav>
       <div class="copyright">
         &copy; {{ year }}, made with <md-icon>favorite</md-icon> by
-        <a href="https://www.webaplant.com/" target="_blank">Webaplant</a>
-        for a better web.
+        <a href="https://webaplant.com/" target="_blank">Webaplant</a>.
       </div>
     </div>
   </footer>

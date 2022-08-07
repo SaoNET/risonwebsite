@@ -3,277 +3,101 @@
     <parallax class="section page-header header-filter" :style="headerStyle">
       <div class="container">
         <div class="md-layout">
-          <div
-            class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
-          >
-            <h1 class="title">Your automation starts here. Projects</h1>
-            <h4>
-              Every landing page needs a small description after the big bold
-              title, that's why we added this text here. Add here all the
-              information that can make you or your product create the first
-              impression.
-            </h4>
-            <br />
-            <md-button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              class="md-success md-lg"
-              target="_blank"
-              ><i class="fas fa-play"></i> Watch video</md-button
-            >
+          <div class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100">
+            <h1 class="title">Projects</h1>
           </div>
         </div>
       </div>
     </parallax>
     <div class="main main-raised">
-      <div class="section">
-        <div class="container">
-          <div class="md-layout">
-            <div
-              class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
-            >
-              <h2 class="title text-center">Let's talk product. Projects</h2>
-              <h5 class="description">
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more.
-              </h5>
-            </div>
-          </div>
-          <div class="features text-center">
-            <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-info">
-                    <md-icon>chat</md-icon>
-                  </div>
-                  <h4 class="info-title">Free Chat</h4>
-                  <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
-                  </p>
-                </div>
+      <div class="card-expansion">
+        <md-card md-with-hover>
+          <md-card-header>
+            <div class="md-title">Medical project</div>
+            <div class="md-subhead">Network of clinics</div>
+          </md-card-header>
+          <md-card-media>
+            <img src="../assets/img/projects/medicine.jpg" alt="Medicine">
+          </md-card-media>
+          <md-card-expand>
+            <md-card-actions md-alignment="space-between">
+              <div>
+                <md-button class="md-simple md-lg">Learn more</md-button>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-success">
-                    <md-icon>verified_user</md-icon>
-                  </div>
-                  <h4 class="info-title">Verified Users</h4>
-                  <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
-                  </p>
-                </div>
+            </md-card-actions>
+            <md-card-expand-content>
+              <md-card-content>
+                Patient management system for a network of clinics. Automates workflow of medical personel.
+              </md-card-content>
+            </md-card-expand-content>
+          </md-card-expand>
+        </md-card>
+
+        <md-card md-with-hover>
+          <md-card-header>
+            <div class="md-title">Fintech</div>
+            <div class="md-subhead">Bank system</div>
+          </md-card-header>
+          <md-card-media>
+            <img src="../assets/img/projects/fintech.jpg" alt="Fintech">
+          </md-card-media>
+          <md-card-expand>
+            <md-card-actions md-alignment="space-between">
+              <div>
+                <md-button class="md-simple md-lg">Learn more</md-button>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-danger">
-                    <md-icon>fingerprint</md-icon>
-                  </div>
-                  <h4 class="info-title">Fingerprint</h4>
-                  <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
-                  </p>
-                </div>
+            </md-card-actions>
+            <md-card-expand-content>
+              <md-card-content>
+                Bank system with self service functionalities for clients. Automates payment and trading functions.
+              </md-card-content>
+            </md-card-expand-content>
+          </md-card-expand>
+        </md-card>
+
+        <md-card md-with-hover>
+          <md-card-header>
+            <div class="md-title">Document flow</div>
+            <div class="md-subhead">Business documents</div>
+          </md-card-header>
+          <md-card-media>
+            <img src="../assets/img/projects/docs.jpg" alt="Documents">
+          </md-card-media>
+          <md-card-expand>
+            <md-card-actions md-alignment="space-between">
+              <div>
+                <md-button class="md-simple md-lg">Learn more</md-button>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section text-center">
-        <div class="container">
-          <h2 class="title">Here is our team</h2>
-          <div class="team">
-            <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg1"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Gigi Hadid
-                      <br />
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
+            </md-card-actions>
+            <md-card-expand-content>
+              <md-card-content>
+                The system provides services to help companies to manage their everyday's work with documents.
+              </md-card-content>
+            </md-card-expand-content>
+          </md-card-expand>
+        </md-card>
 
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
+        <md-card md-with-hover>
+          <md-card-header>
+            <div class="md-title md-card-header-whitesmoke">IoT project</div>
+            <div class="md-subhead">Communications</div>
+          </md-card-header>
+          <md-card-media>
+            <img src="../assets/img/projects/iot.jpg" alt="Iot">
+          </md-card-media>
+          <md-card-expand>
+            <md-card-actions md-alignment="space-between">
+              <div>
+                <md-button class="md-simple md-lg">Learn more</md-button>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg2"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Carla Hortensia
-                      <br />
-                      <small class="card-description text-muted"
-                        >Designer</small
-                      >
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-linkedin"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg3"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Kendall Jenner
-                      <br />
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-contacts">
-        <div class="container">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">Work with us</h2>
-              <h4 class="text-center description">
-                Divide details about your product or agency work into parts.
-                Write a few lines about each one and contact us about any
-                further collaboration. We will responde get back to you in a
-                couple of hours.
-              </h4>
-              <form class="contact-form">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Name</label>
-                      <md-input v-model="name" type="text"></md-input>
-                    </md-field>
-                  </div>
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Email</label>
-                      <md-input v-model="email" type="email"></md-input>
-                    </md-field>
-                  </div>
-                </div>
-                <md-field maxlength="5">
-                  <label>Your Message</label>
-                  <md-textarea v-model="message"></md-textarea>
-                </md-field>
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+            </md-card-actions>
+            <md-card-expand-content>
+              <md-card-content>
+                Wireless long distance communications through IoT servers and devices automate mechanical tasks.
+              </md-card-content>
+            </md-card-expand-content>
+          </md-card-expand>
+        </md-card>
       </div>
     </div>
   </div>
@@ -285,19 +109,7 @@ export default {
   props: {
     header: {
       type: String,
-      default: require("@/assets/img/bg7.jpg")
-    },
-    teamImg1: {
-      type: String,
-      default: require("@/assets/img/faces/avatar.jpg")
-    },
-    teamImg2: {
-      type: String,
-      default: require("@/assets/img/faces/christian.jpg")
-    },
-    teamImg3: {
-      type: String,
-      default: require("@/assets/img/faces/kendall.jpg")
+      default: require("@/assets/img/headers/virtual-summit.gif")
     }
   },
   data() {
@@ -318,15 +130,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.md-card-actions.text-center {
-  display: flex;
-  justify-content: center !important;
-}
-.contact-form {
-  margin-top: 30px;
-}
+.card-expansion {
+    padding: 30px 100px;
+  }
 
-.md-has-textarea + .md-layout {
-  margin-top: 15px;
-}
+  .md-card {
+    width: 320px;
+    margin: 30px 4px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .md-card-header{
+    background-color: whitesmoke !important;
+  }
 </style>

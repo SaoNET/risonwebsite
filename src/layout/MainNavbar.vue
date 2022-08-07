@@ -10,7 +10,7 @@
       <div class="md-toolbar-section-start">
         <a href="/">
           <!-- <i class="material-icons">view_day</i> -->
-          <h3 class="md-title">Webaplant</h3>
+          <h2 class="md-title" style="font-family: 'Gill Sans MT';">Webaplant</h2>
         </a>
       </div>
       <div class="md-toolbar-section-end">

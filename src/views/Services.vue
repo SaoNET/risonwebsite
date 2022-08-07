@@ -4,20 +4,20 @@
       <div class="container">
         <div class="md-layout">
           <div class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100">
-            <h1 class="title">Your automation starts here.</h1>
-            <h4>
+            <h1 class="title">Web Development Services</h1>
+            <!-- <h4>
               Every landing page needs a small description after the big bold
               title, that's why we added this text here. Add here all the
               information that can make you or your product create the first
               impression
-            </h4>
-            <br />
+            </h4> -->
+            <!-- <br />
             <md-button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               class="md-success md-lg"
               target="_blank"
               ><i class="fas fa-play"></i> Watch video</md-button
-            >
+            > -->
           </div>
         </div>
       </div>
@@ -26,73 +26,102 @@
       <div class="section">
         <div class="container">
           <div class="md-layout md-gutter">
-            <div class="md-layout-item">
-              <h2 class="title">Let's talk product. Services</h2>
-              <h5 class="description">
-                This is the paragraph
-              </h5>
+            <div class="md-layout-item" style="margin: 10% 0;">
+              <h3>Web Aplant is a leading web development company 
+                delivering complex web projects way beyond regular website building</h3>
             </div>
-            <div class="md-layout-item md-size-50">
+            <div class="md-layout-item md-size-40" style="background-color: whitesmoke;">
               <div>
-                <h4 class="title">First</h4>
+                <h4 class="title">EXTENSIVE EXPERIENCE</h4>
                 <h5 class="description">
-                  This is the paragraph
+                  For over a decade, we have developed thousands of outstanding projects 
+                  that have helped our customers accomplish their business goals
                 </h5>
               </div>
               <div>
-                <h4 class="title">Second</h4>
+                <h4 class="title">INDUSTRY-FOCUSED SPECIALISTS</h4>
                 <h5 class="description">
-                  This is the paragraph
+                  With a strong focus on technology-intensive industries and constant attention 
+                  to detail and IT trends, Web Aplant's specialists help companies from all over the world
                 </h5>
               </div>
               <div>
-                <h4 class="title">Third</h4>
+                <h4 class="title">CUSTOMER LOYALTY</h4>
                 <h5 class="description">
-                  This is the paragraph
+                  Web Aplant’s high standards, effective project delivery, 
+                  and ability to develop IT solutions of any kind 
+                  enable us to enjoy wide recognition. As a result, 
+                  90% of our customers are recurring and recommend us to their business partners
                 </h5>
+              </div>
+            </div>
+            <div class="md-layout-item md-size-20 md-alignment-center-center" style="background-color: whitesmoke;">
+              <div style="height: 30%;">
+                <h3>
+                  1000+
+                </h3>
+                <h5>successful projects</h5>
+              </div>
+              <div style="height: 30%;">
+                <h3>
+                  15
+                </h3>
+                <h5>years in business</h5>
+              </div>
+              <div style="height: 30%;">
+                <h3>
+                  90%
+                </h3>
+                <h5>recurring customers</h5>
               </div>
             </div>
           </div>
-          <div class="md-layout md-gutter">
-            <div class="md-layout-item">
-              <h3 class="title">Image 1</h3>
+          <div class="md-layout md-gutter md-alignment-center-space-around" style="background-color: currentcolor; padding: 5% 0;">
+            <div class="md-layout-item md-size-15">
+              <img src="../assets/img/logos/microsoft.svg"/>
+              <p class="title" style="color: white;">Microsoft certified</p>
             </div>
-            <div class="md-layout-item">
-              <h3 class="title">Image 2</h3>
+            <div class="md-layout-item md-size-15">
+              <img src="../assets/img/logos/clutch-90-reviews.svg"/>
+              <p class="title" style="color: white;">High ratings</p>
             </div>
-            <div class="md-layout-item">
-              <h3 class="title">Image 3</h3>
+            <div class="md-layout-item md-size-15">
+              <img src="../assets/img/logos/b2b-2020.svg"/>
+              <p class="title" style="color: white;">B2B company</p>
             </div>
-            <div class="md-layout-item">
-              <h3 class="title">Image 4</h3>
+            <div class="md-layout-item md-size-15">
+              <img src="../assets/img/logos/aws-white.svg"/>
+              <p class="title" style="color: white;">AWS Partner</p>
             </div>
           </div>
           <div class="md-layout md-gutter">
             <div class="md-layout-item md-size-50">
-              <h2 class="title">Let's talk product</h2>
+              <h2 class="title">Websites</h2>
               <h5 class="description">
-                This is the paragraph
+                Webaplant builds feature-rich and reliable websites, with advanced UI/UX and intuitive user flows, 
+                for businesses and non-profit organizations, so that you can raise visibility, win new audiences, 
+                and communicate your advantages
               </h5>
             </div>
             <div class="md-layout-item md-size-50">
-              <h2 class="title">Web-development</h2>
+              <h2 class="title">Web portals</h2>
               <h5 class="description">
-                WebAplant is a leading web development company 
-                delivering complex web projects way beyond regular website building
+                A webportal built by Webaplant’s tech experts for your organization will be fully capable of collecting 
+                all the data you need from different sources and presenting that data in a uniform and convenient way
               </h5>
             </div>
             <div class="md-layout-item md-size-50">
-              <h2 class="title">Web-development</h2>
+              <h2 class="title">Ecommerce</h2>
               <h5 class="description">
-                WebAplant is a leading web development company 
-                delivering complex web projects way beyond regular website building
+                Whatever your business model is — be it a marketplace or B2C and B2B projects — Webaplant’s web developers 
+                will take care of each relevant eCommerce component and seamlessly integrate it into a web app
               </h5>
             </div>
             <div class="md-layout-item md-size-50">
-              <h2 class="title">Web-development</h2>
+              <h2 class="title">Enterprise web solutions</h2>
               <h5 class="description">
-                WebAplant is a leading web development company 
-                delivering complex web projects way beyond regular website building
+                Building enterprise-grade web solutions for huge amounts of data with Webaplant will provide your business 
+                with advanced capabilities for knowledge sharing, monitoring, management, and decision-making
               </h5>
             </div>
           </div>
@@ -108,7 +137,7 @@ export default {
   props: {
     header: {
       type: String,
-      default: require("@/assets/img/bg7.jpg")
+      default: require("@/assets/img/headers/eminent-spirit.gif")
     },
     teamImg1: {
       type: String,
