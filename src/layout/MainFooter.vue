@@ -8,22 +8,22 @@
       <nav>
         <ul>
           <li>
-            <a href="https://www.webaplant.com">
+            <a href="/">
               Webaplant
             </a>
           </li>
           <li>
-            <a href="https:///presentation.webaplant.com">
+            <a href="/aboutus">
               About Us
             </a>
           </li>
           <li>
-            <a href="https:///blog.webaplant.com">
+            <a href="#">
               Blog
             </a>
           </li>
           <li>
-            <a href="https://www.webaplant.com/license">
+            <a href="#">
               Licenses
             </a>
           </li>
@@ -53,7 +53,7 @@
       </nav>
       <div class="copyright">
         &copy; {{ year }}, made with <md-icon>favorite</md-icon> by
-        <a href="https://webaplant.com/" target="_blank">Webaplant</a>.
+        <a href="/" target="_blank">Webaplant</a>.
       </div>
     </div>
   </footer>

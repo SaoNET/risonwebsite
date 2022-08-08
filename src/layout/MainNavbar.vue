@@ -47,17 +47,17 @@
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
-                          <a href="/products">
+                          <a href="/projects">
                             <i class="material-icons">layers</i>
-                            <p>Products</p>
+                            <p>Projects</p>
                           </a>
                         </li>
                         <li>
                           <a
-                            href="/portfolio"
+                            href="/services"
                           >
                             <i class="material-icons">content_paste</i>
-                            <p>Portfolio</p>
+                            <p>Services</p>
                           </a>
                         </li>
                       </ul>
