@@ -26,11 +26,11 @@
       <div class="section">
         <div class="container">
           <div class="md-layout md-gutter">
-            <div class="md-layout-item" style="margin: 10% 0;">
+            <div class="md-layout-item md-small-size-100" style="margin: 10% 0;">
               <h3>Web Aplant is a leading web development company 
                 delivering complex web projects way beyond regular website building</h3>
             </div>
-            <div class="md-layout-item md-size-40" style="background-color: whitesmoke;">
+            <div class="md-layout-item md-medium-size-40 md-small-size-100" style="background-color: whitesmoke;">
               <div>
                 <h4 class="title">EXTENSIVE EXPERIENCE</h4>
                 <h5 class="description">
@@ -55,16 +55,16 @@
                 </h5>
               </div>
             </div>
-            <div class="md-layout-item md-size-20 md-alignment-center-center" style="background-color: whitesmoke;">
+            <div class="md-layout-item md-medium-size-20 md-small-hide md-alignment-center-center" style="background-color: whitesmoke;">
               <div style="height: 30%;">
                 <h3>
-                  1000+
+                  10+
                 </h3>
                 <h5>successful projects</h5>
               </div>
               <div style="height: 30%;">
                 <h3>
-                  15
+                  5
                 </h3>
                 <h5>years in business</h5>
               </div>
@@ -77,25 +77,25 @@
             </div>
           </div>
           <div class="md-layout md-gutter md-alignment-center-space-around" style="background-color: currentcolor; padding: 5% 0;">
-            <div class="md-layout-item md-size-15">
+            <div class="md-layout-item md-small-size-50">
               <img src="../assets/img/logos/microsoft.svg"/>
               <p class="title" style="color: white;">Microsoft certified</p>
             </div>
-            <div class="md-layout-item md-size-15">
+            <div class="md-layout-item md-small-size-50">
               <img src="../assets/img/logos/clutch-90-reviews.svg"/>
               <p class="title" style="color: white;">High ratings</p>
             </div>
-            <div class="md-layout-item md-size-15">
+            <div class="md-layout-item md-small-size-50">
               <img src="../assets/img/logos/b2b-2020.svg"/>
               <p class="title" style="color: white;">B2B company</p>
             </div>
-            <div class="md-layout-item md-size-15">
+            <div class="md-layout-item md-small-size-50">
               <img src="../assets/img/logos/aws-white.svg"/>
               <p class="title" style="color: white;">AWS Partner</p>
             </div>
           </div>
           <div class="md-layout md-gutter">
-            <div class="md-layout-item md-size-50">
+            <div class="md-layout-item md-small-size-100">
               <h2 class="title">Websites</h2>
               <h5 class="description">
                 Webaplant builds feature-rich and reliable websites, with advanced UI/UX and intuitive user flows, 
@@ -103,21 +103,21 @@
                 and communicate your advantages
               </h5>
             </div>
-            <div class="md-layout-item md-size-50">
+            <div class="md-layout-item md-small-size-100">
               <h2 class="title">Web portals</h2>
               <h5 class="description">
                 A webportal built by Webaplant’s tech experts for your organization will be fully capable of collecting 
                 all the data you need from different sources and presenting that data in a uniform and convenient way
               </h5>
             </div>
-            <div class="md-layout-item md-size-50">
+            <div class="md-layout-item md-small-size-100">
               <h2 class="title">Ecommerce</h2>
               <h5 class="description">
                 Whatever your business model is — be it a marketplace or B2C and B2B projects — Webaplant’s web developers 
                 will take care of each relevant eCommerce component and seamlessly integrate it into a web app
               </h5>
             </div>
-            <div class="md-layout-item md-size-50">
+            <div class="md-layout-item md-small-size-100">
               <h2 class="title">Enterprise web solutions</h2>
               <h5 class="description">
                 Building enterprise-grade web solutions for huge amounts of data with Webaplant will provide your business 

@@ -131,7 +131,7 @@ export default {
 
 <style lang="scss" scoped>
 .card-expansion {
-    padding: 30px 100px;
+    padding: 5%;
   }
 
   .md-card {
